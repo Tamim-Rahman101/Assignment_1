@@ -11,3 +11,8 @@ Dog dog = new Dog();
 dog.Eat();
 dog.Speak();
 Console.WriteLine();
+
+Console.WriteLine("Polymorphism Example:");
+Cat cat = new Cat();
+cat.Eat();
+Console.WriteLine();

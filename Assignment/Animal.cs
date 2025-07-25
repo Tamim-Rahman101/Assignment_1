@@ -12,7 +12,7 @@ namespace Assignment
         {
             Console.WriteLine("New animal created.");
         }
-        public void Eat()
+        public virtual void Eat()
         {
             Console.WriteLine("Animal is eating.");
         }
@@ -26,6 +26,17 @@ namespace Assignment
         public void Speak()
         {
             Console.WriteLine("Dog speaks bow bow.");
+        }
+    }
+    internal class Cat : Animal
+    {
+        public Cat()
+        {
+            Console.WriteLine("New cat created.");
+        }
+        public override void Eat()
+        {
+            Console.WriteLine("Cat is eating.");
         }
     }
 }
