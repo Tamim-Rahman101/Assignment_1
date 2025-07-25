@@ -16,3 +16,12 @@ Console.WriteLine("Polymorphism Example:");
 Cat cat = new Cat();
 cat.Eat();
 Console.WriteLine();
+
+Console.WriteLine("Abstraction Example:");
+Bike bike = new Bike();
+bike.SetMilage(50);
+bike.GetMilage();
+Car car = new Car();
+car.SetMilage(15);
+car.GetMilage();
+Console.WriteLine();
